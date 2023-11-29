@@ -1,0 +1,12 @@
+{
+  "name": "rconscheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "SaveData",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.4",
+    "node-cron": "^3.0.3"
+  }
+}
