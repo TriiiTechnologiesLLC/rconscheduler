@@ -9,7 +9,7 @@ function rconCommand(command) {
 
     shell.config.silent = true;
 
-    let result = shell.exec(exePath + " -p "+config["rcon-password"]+" --address "+config.address+" "+command);
+    let result = shell.exec(exePath + " -p "+config["rcon-password"]+" --address "+config.address+" \""+command+"\"");
 
     return result;
 }
